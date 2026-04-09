@@ -30,3 +30,24 @@ It means the value cannot be changed after creation
 ## What is Variable Scope
 
 It defines where the variable can be accessed or modified
+
+
+
+
+
+ddqdwewewfwefwefwefwefwe
+fwefwefwewf
+wfwefwef
+we
+fwef
+wef
+wef
+wefwe
+fwe
+fwe
+f
+wfwe
+fw
+ef
+ewf
+ew
