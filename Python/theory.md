@@ -32,3 +32,35 @@ It means the value cannot be changed after creation
 It defines where the variable can be accessed or modified
 
 
+## What is Data Types
+
+It is the Classification or Categorization of data items
+
+- Numeric Data Type
+    Int :- Whole Numbers (+ve, -ve)
+    Float :- Decimal Numbers (3.23, -2.33)
+    Complex :- Number with Real & Imaginary Part
+
+- Sequence Data Type
+    Str :- Text 
+    List :- Ordered , Mutable Collection
+    Tuple :- Ordered , Immutable Collection
+    Range :- Immutable, Efficient for Looping
+
+- Mapping Data Type
+    Dict :- Mutable, unordered
+
+- Set Data Type
+    Set :- Unordered, Mutable Unique Value
+    Frozenset :- Immutable version of set  
+
+- Boolean Data Type
+    Bool :- Logical Values (True/False)
+
+- Binary Data Type
+    bytes() :- Immutable sequence of bytes
+    bytearray() :- Mutable sequence of bytes
+    memoryview() :- access memory without copying
+
+- None Data Type
+    It represents absence of value
