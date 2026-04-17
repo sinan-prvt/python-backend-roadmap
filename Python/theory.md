@@ -64,3 +64,33 @@ It is the Classification or Categorization of data items
 
 - None Data Type
     It represents absence of value
+
+
+## What is Operators 
+
+It is the Symbol or Keyword that Perform Operations on Variable and Value
+
+- Arithmetic Operators :- ( +, -, *, /, //, %, ** )
+- Comparison Operators :- ( ==, !=, >, <, <=, >= )
+- Assignment Operators :- ( =, +=, -=, *=, /=, //=, %=, **= )
+- Logical Operators :- ( and, or, not )
+- Identity Operators :- 2 obj same memory ( is, is not )
+- Membership Operators :- Value exists ( in, not in)
+- Bitwise Operators :- ( &, |, ^, ~, <<, >> )
+
+
+## What is Conditional Statement
+
+It Control Program Flow using Boolean Logic 
+
+- If Statement :-  
+    It Execute a Block of Code if the Given Condition is True
+- If-else Statement :-   
+    it Execute a Block of Code based on Condition
+- elif Statement :-   
+    It Stands for else if when Multiple Condition is Occured
+- Ternary Statement :-   
+    It is Short-Hand for if-else Statement
+- Match-Case Statement :-   
+    It Pattern Matching like Switch Case and it to Handle Multiple Conditions
+
