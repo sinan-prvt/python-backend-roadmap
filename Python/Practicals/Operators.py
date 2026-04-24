@@ -7,13 +7,13 @@
 # a = 10
 # b = 5
 
-# print(a + b)  # Addition
-# print(a - b)  # Subtraction
-# print(a * b)  # Multiplication
-# print(a / b)  # Division
-# print(a % b)  # Modulus
-# print(a ** b) # Exponentiation
-# print(a // b) # Floor Division
+# print(a + b)      # Addition
+# print(a - b)      # Subtraction
+# print(a * b)      # Multiplication
+# print(a / b)      # Division
+# print(a % b)      # Modulus
+# print(a ** b)     # Exponentiation
+# print(a // b)     # Floor Division
 
 
 
@@ -23,12 +23,12 @@
 # a = 10
 # b = 5
 
-# print(a == b)  # Equal to
-# print(a != b)  # Not equal to
-# print(a > b)   # Greater than
-# print(a < b)   # Less than
-# print(a >= b)  # Greater than or equal to
-# print(a <= b)  # Less than or equal to
+# print(a == b)     # Equal to
+# print(a != b)     # Not equal to
+# print(a > b)      # Greater than
+# print(a < b)      # Less than
+# print(a >= b)     # Greater than or equal to
+# print(a <= b)     # Less than or equal to
 
 
 
@@ -37,25 +37,25 @@
 # a = 10
 # b = 5
 
-# a += b  # Add and assign
+# a += b        # Add and assign
 # print(a)
 
-# a -= b  # Subtract and assign
+# a -= b        # Subtract and assign
 # print(a)
 
-# a *= b  # Multiply and assign
+# a *= b        # Multiply and assign
 # print(a)
 
-# a /= b  # Divide and assign
+# a /= b        # Divide and assign
 # print(a)
 
-# a %= b  # Modulus and assign
+# a %= b        # Modulus and assign
 # print(a)
 
-# a **= b # Exponentiation and assign
+# a **= b       # Exponentiation and assign
 # print(a)
 
-# a //= b # Floor division and assign
+# a //= b       # Floor division and assign
 # print(a)
 
 
@@ -63,22 +63,22 @@
 # -------------- Logical Operators  
 
 # age = 25
-# print(age > 18 and age < 30) # Logical AND
+# print(age > 18 and age < 30)                  # Logical AND
 
 # role = "Admin"
-# print(role == "Admin" or role == "Manager") # Logical OR
+# print(role == "Admin" or role == "Manager")   # Logical OR
 
 # is_logged_in = False
-# print(not is_logged_in) # Logical NOT
+# print(not is_logged_in)                       # Logical NOT
 
 
 
 # -------------- MemberShip Operators
 
 # name = "Sinan"
-# print("i" in name) # in
+# print("i" in name)        # in
 
-# print("k" not in name) # not in
+# print("k" not in name)    # not in
 
 
 
@@ -87,9 +87,9 @@
 # num1 = [1, 2]
 # num2 = [1, 2, 3]
 
-# print(num1 is num2)
+# print(num1 is num2)       # is
 
-# print(num1 is not num2)
+# print(num1 is not num2)   # is not
 
 
 
@@ -98,9 +98,9 @@
 a = 2
 b = 3
 
-print(a & b)  # Bitwise AND (&)
-print(a | b)  # Bitwise OR (|)
-print(a ^ b)  # Bitwise XOR (^)
-print(~10)    # Bitwise NOT (~)
-print(a << b) # Left Shift (<<)
-print(a >> b) # Right Shift(>>)
+print(a & b)     # Bitwise AND (&)
+print(a | b)     # Bitwise OR (|)
+print(a ^ b)     # Bitwise XOR (^)
+print(~10)       # Bitwise NOT (~)
+print(a << b)    # Left Shift (<<)
+print(a >> b)    # Right Shift(>>)
