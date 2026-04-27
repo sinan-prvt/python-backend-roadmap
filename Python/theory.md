@@ -159,7 +159,33 @@ It allows Mixed Data Types.
     - count :- It Return the No of Values Appears in Tuple
 
 - Tuple Packing :- It putting multiple values together into one tuple object
+
 - Tuple Unpacking :- It extracts tuple values into separate variables.
+
+
+
+## What is Dictionary
+
+It is Mutable, Unordered and Indexed collection of key-value pairs defined with {}.
+It not allowed duplicate values.
+
+- Methods :-
+    - keys() :- Get all keys
+    
+    - values() :- It Access Dictionary Values
+    
+    - clear() :- It Remove all Items 
+    
+    - copy() :- Shallow Copy
+    
+    - items() :- It retrieves all (key, value) tuples
+    
+    - popitem() :- It remove & return (key,value) pairs in LIFO order
+    
+    - update() :- It add/update key-value pairs from another dict
+    
+    - setdefault() :- It get value for key if exist, else default & return
+
 
 
 
