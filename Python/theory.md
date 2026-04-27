@@ -158,6 +158,10 @@ It allows Mixed Data Types.
 
     - count :- It Return the No of Values Appears in Tuple
 
+- Tuple Packing :- It putting multiple values together into one tuple object
+- Tuple Unpacking :- It extracts tuple values into separate variables.
+
+
 
 ## What is Comprehension 
 
