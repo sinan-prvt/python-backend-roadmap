@@ -247,3 +247,52 @@ It is a short and elegant way to create new sequences from existing sequences in
     - Generator Comprehension :- 	Like list, but use () instead of []
     
     - Nested Comprehensions
+
+
+## What is String
+
+It is a sequence of characters enclosed in single (''), double("") or triple quotes (""" or '''). 
+It is Immutable squence of characters
+
+- Methods :- 
+    - upper() :- It convert into Upper Case
+    
+    - lower() :- It convert into Lower Case
+    
+    - capitalize() :- It Capitalize the first letter
+    
+    - title() :- It Capitalize the first letter of every word
+    
+    - strip() :- It remove leading & trailing Whitespaces
+    
+    - replace() :- It replace Old substring with new
+    
+    - split() :- It spits string into a list using separators
+    
+    - join() :- It Join elements of iterable into string
+    
+    - startswith(prefix) :- Check string start with given substring
+    
+    - endswith(suffix) :- Check string end with given substring
+    
+    - center(width, char) :- centered string with given width 
+    
+    - count() :- Count how many times a substring appears
+    
+    - find(substring) :- Find index
+    
+    - isalnum() :- return true if string contain only letter & numbers
+    
+    - isalpha() :- return true if string contains only letters
+    
+    - isdigit() :- return true if string contains only digit
+    
+    - islower() :- Check all characters in lower case
+    
+    - isupper() :- Check all characters in upper case
+    
+    - isspace() :- Check string contain only whitespaces
+    
+    - swapcase() :- Converts uppercase to lowercase & vice versa
+
+
