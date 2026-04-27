@@ -188,6 +188,50 @@ It not allowed duplicate values.
 
 
 
+## What is set
+
+It is Mutable, Unordered Collection of Unique Items defined with Curly Braces {}.
+It not aloows duplicate values
+
+- Methods :- 
+    - add() :- Add a Single Item
+    
+    - update() :- Add Multiple Items
+    
+    - remove() :- It for Removing but there is no value it occurs error
+    
+    - discard() :- for Removing but there is no value it not occur error
+    
+    - pop() :- Removing Random Element
+    
+    - clear() :- Removing All Element
+    
+    - len() :- Find Number of Items
+    
+    - min() :- Find Smallest Item
+    
+    - max() :- Find Largest Item
+    
+    - sum() :- Find Sum of Number
+    
+    - sorted() :- Sorting Item
+
+- Mathematical Set Operations :- 
+    - Union ( | ) :- It Combining Sets , Removing Duplicates
+    
+    - Intersection ( & ) :- It Find Common Element
+    
+    - Difference ( - ) :- It Check element in “a” but not in “b”
+    
+    - Symmetric ( ^ ) :- It Check elements in either set but not both
+    
+    - Subset ( <= ) :- All elements of “a” are in “b”
+    
+    - Superset ( >= ) :- All elements of “b” are in “a” 
+    
+    - Proper Subset :- All elements in “a” in “b” and (a ≠ b) “a” must be smaller than “b”
+
+
 
 ## What is Comprehension 
 
