@@ -71,11 +71,17 @@ It is the Classification or Categorization of data items
 It is the Symbol or Keyword that Perform Operations on Variable and Value
 
 - Arithmetic Operators :- ( +, -, *, /, //, %, ** )
+
 - Comparison Operators :- ( ==, !=, >, <, <=, >= )
+
 - Assignment Operators :- ( =, +=, -=, *=, /=, //=, %=, **= )
+
 - Logical Operators :- ( and, or, not )
+
 - Identity Operators :- 2 obj same memory ( is, is not )
+
 - Membership Operators :- Value exists ( in, not in)
+
 - Bitwise Operators :- ( &, |, ^, ~, <<, >> )
 
 
@@ -85,12 +91,60 @@ It Control Program Flow using Boolean Logic
 
 - If Statement :-  
     It Execute a Block of Code if the Given Condition is True
+
 - If-else Statement :-   
     it Execute a Block of Code based on Condition
+
 - elif Statement :-   
     It Stands for else if when Multiple Condition is Occured
+
 - Ternary Statement :-   
     It is Short-Hand for if-else Statement
+
 - Match-Case Statement :-   
     It Pattern Matching like Switch Case and it to Handle Multiple Conditions
+
+
+
+## What is Loop
+
+It is used to Repeat a Block of Code Multiple times until a Condition is met
+
+- For Loop :- It Iterates over a Sequence ( list, tuple, string, range, etc..)
+
+- While Loop :- It Repeats until a Condition become False
+
+- Nested Loop :- It Loop inside another Loop
+
+- Control Statement in Loops :- 
+    - break :- It Stop the Loop Immediately 
+    - continue :- It Skip the Current Iteration and go to next
+    - pass :- It is a Placeholder. It does nothing
+
+
+
+## What is List
+
+It is a collection data type that allows to store multiple items in a single variable.
+It is Mutable and Ordered Collection of items defined with [].
+It allows mixed data types
+
+- Methods :- 
+    - append() :- Add to Last
+    - insert() :- Add with Index Number
+    - extend() :- Add Multiple Items
+    - remove() :- Remove with Item Name
+    - pop() :- Remove last Item
+    - clear() :- Remove All Items
+    - sort() :- Sorting Items
+    - sorted() :- Return New Sorted List without Modify Org List
+    - reverse() :- Reversing Items
+    - len() :- Find Length of Item 
+    - index() :- Find the Position of item
+    - count() :- Find Count Occurrence
+    - copy() :- Shallow Copy
+    - min() :- Smallest Number
+    - max() :- Largest Number
+    - sum() :- Sum of Number
+
 
