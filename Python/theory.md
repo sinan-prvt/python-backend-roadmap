@@ -148,3 +148,28 @@ It allows mixed data types
     - sum() :- Sum of Number
 
 
+## What is Tuple
+
+It is Immutable Ordered Collection of data defined with ().
+It allows Mixed Data Types.
+
+- Methods
+    - index :- It Return First Index
+
+    - count :- It Return the No of Values Appears in Tuple
+
+
+## What is Comprehension 
+
+It is a short and elegant way to create new sequences from existing sequences in a single line.
+
+- Types of Comprehension :-
+    - List Comprehension :- Create a list in a Single Line
+    
+    - Set Comprehension :- Like list , but Create a set (remove duplicates)
+    
+    - Dictionary Comprehension :- Create dict in One line
+    
+    - Generator Comprehension :- 	Like list, but use () instead of []
+    
+    - Nested Comprehensions
