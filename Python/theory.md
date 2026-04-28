@@ -366,3 +366,22 @@ It means a file contains Python code that can be imported and reused in other Py
     
     - json :- Work with JSON data
 
+
+## What is Exception Handling
+
+It is a Mechanism in Python to handle runtime errors so that the program doesn't crash and can continue execution
+
+- Build-in Exception :- 
+    - ValueError :- Invalid Value Type
+    
+    - TypeError :- Wrong Data Type Operation
+    
+    - IndexError :- Invalid Sequence Index
+    
+    - KeyError :- Missing Dictionary Key
+    
+    - FileNotFoundError :- File doesn't exist 
+    
+    - ZeroDivisionError :- Division by Zero (1/0)
+    
+    - ImportError :- Module not Found
