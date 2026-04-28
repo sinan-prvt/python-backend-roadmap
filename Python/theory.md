@@ -346,3 +346,23 @@ Instead of repeating the same code again and again, we define it once and call i
     
     - With Argument , With Return Value :-  
         It takes input and return a value
+
+
+
+## What is Module
+
+It means a file contains Python code that can be imported and reused in other Python Programs
+
+- Build-in Modules :- 
+    - math :- Math operations (sqrt,pi,degree,redians,sin,cos,tan,etc)
+    
+    - random :- Generate Random Numbers
+    
+    - datetime :- It works with date and time
+    
+    - os :- Interact with Operating System
+    
+    - sys :- System-specific parameters & functions
+    
+    - json :- Work with JSON data
+
