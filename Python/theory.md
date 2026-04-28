@@ -296,3 +296,53 @@ It is Immutable squence of characters
     - swapcase() :- Converts uppercase to lowercase & vice versa
 
 
+
+## What is Function
+
+It is a Reusable Building Block of code that perform specific task.
+Instead of repeating the same code again and again, we define it once and call it whenever needed
+
+- Types of Fuctions :-
+
+    - Built-in Function :-   
+        It is the Standard Function in Python that already available to use ( print(), len(), type() )
+    
+    - User defined Function :-   
+        We can create our own functions based on our requirements. Use def to create
+    
+    - Lambda Function :-   
+        It is a smallest anonymous function, written in one line using with lambda keyword
+
+    - Recursion Function :-   
+        It is the technique where a function call itself in order to solve a smaller part of the same problem
+
+- Types of Function Arguments :- 
+    - Default Argument :-  
+        It is a function parameter that takes default value if the caller does not provide one
+
+    - Keyword Argument :-  
+        It is the way to passing argument to a function explicitly naming the parameter along with its value
+
+    - Positional Argument :-   
+        It is an argument is passed to a function in the correct order as defined in the functions parameter list
+
+    - Variable Length Argument :-  
+        - Arbitrary Positional Argument (*args) :-  
+            It collects extra positional arguments into a tuple inside the function
+
+        - Arbitrary Keyword Argument (**kwargs) :-  
+            It collects extra keyword arguments into dictionary inside the function
+
+
+- Types of Function based on Argument & Return value
+    - Without Argument , Without Return Value :-  
+        It does not take any input and does not return any value
+    
+    - With Argument, Without Return Value :-  
+        It takes input but does not return a value
+    
+    - Without Argument , With Return Value :-  
+        It does not take input but return a value
+    
+    - With Argument , With Return Value :-  
+        It takes input and return a value
