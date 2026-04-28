@@ -400,3 +400,5 @@ It is a place where python stores variable names, function names, class names an
     - Global Namespace :- Outer function
     
     - Built-in Namespace :- Python Built-in functions
+
+
