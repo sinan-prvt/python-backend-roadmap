@@ -405,3 +405,5 @@ It is a place where python stores variable names, function names, class names an
 ## What is Closure
 
 It is the function defined inside another function that remembers the variables of outer function even after the outer function finished execution
+
+
