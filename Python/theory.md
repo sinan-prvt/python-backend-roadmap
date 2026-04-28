@@ -385,3 +385,18 @@ It is a Mechanism in Python to handle runtime errors so that the program doesn't
     - ZeroDivisionError :- Division by Zero (1/0)
     
     - ImportError :- Module not Found
+
+
+
+## What is NameSpace
+
+It is a place where python stores variable names, function names, class names and object names
+
+- Types of NameSpace
+    - Local Namespace :- Inside a function
+    
+    - Enclosing Namespace :- Nested Function
+    
+    - Global Namespace :- Outer function
+    
+    - Built-in Namespace :- Python Built-in functions
