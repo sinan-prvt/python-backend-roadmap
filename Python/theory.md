@@ -407,3 +407,29 @@ It is a place where python stores variable names, function names, class names an
 It is the function defined inside another function that remembers the variables of outer function even after the outer function finished execution
 
 
+
+## What is Decorator
+
+It is a function that takes another function as input, and add extra behaviour and return a new function, without changing the original function code
+
+- Types of Decorators :-
+    - Function Decorator :-  
+        It takes a function as input and return a new function
+    
+    - Method Decorator :-  
+        It is used to decorate methods with a class
+    
+    - Class Decorator :-  
+        It is used to modify and enhance the behaviour of class
+
+
+- Built-in Decorators :-
+    - @staticmethod :-   
+        It is a method that does not access the instance (self) or Class (cls)
+    
+    - @classmethod :-  
+        It is a method that receives the class(cls) as its first argument instead of an instance
+    
+    - @property :-  
+        It covert a method into read only attribute
+
