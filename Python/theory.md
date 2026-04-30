@@ -433,3 +433,46 @@ It is a function that takes another function as input, and add extra behaviour a
     - @property :-  
         It covert a method into read only attribute
 
+
+
+## What is Class
+
+It is a blueprint or template used for creating objects that have attributes and methods.
+It is defined with class keyword
+
+
+- Types of Classes :-
+    - Normal/Regular Class :-   
+        It is Standard Class with Attribute (data) and Methods (function) for creating objects
+    
+    - Abstract Class :-   
+        A class that is used only as a blueprint. It is not meant for direct object creation.
+    
+    - Concrete Class :-   
+        Normal class with complete implementation.
+    
+    - Nested / Inner Class :-   
+        Class defined inside another class
+    
+    - Derived / Child Class :-   
+        Class that inherits from another class
+    
+    - Singleton Class :-    
+        Class that allows only one object (instance) to be created throughout the program
+
+
+- Methods in Class :- 
+    - Instance Method :-  
+        It works with an instance variable, Its first Argument is self. It accessed by Object 	
+    
+    - Class Method (@classmethod) :-  
+        It works with class variables, Its first argument is cls. It accessed by class/Object
+    
+    - Static Method (@staticmethod) :-  
+        It is a normal function inside class, It has no self or cls. It accessed by class/Object
+    
+    - Property Method :-  
+        It is a special method that converts methods into read only attributes. It allows getter, setter, deleter for attributes
+
+
+
