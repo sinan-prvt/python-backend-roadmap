@@ -496,3 +496,65 @@ It is a collection of data and behaviour defined by its class
     It is a reference to the current instance of the class. It allows us to access the attributes and methods of the object
 
 
+
+## What is Special/ Magic/ Dunder Method
+
+It is a special Method in Python with Double UnderScore(__) in start and end of a name.
+
+- Methods :- 
+    - __ init __ :-  
+        Constructor method, automatically called when an object created
+    
+    - __ str __ :-   
+        It is the Human-readable string representation of an Object ( for print() ) - for user
+    
+    - __ repr __ :-   
+        It is the official string representation of an object. It make string unambiguous(it debugging)- for developers
+     
+    - __ add __ :-   
+        It define the behavior of the + operator for objects of a class 
+    
+    - __ sub __ :-  
+        It is used to overload the subtraction operator ( - ) 
+    
+    - __ mul __ :-   
+        It is used to overload the multiplication operator ( * ) 
+    
+    - __ truediv __ :-  
+        It is used to overload the division operator ( / ) 
+    
+    - __ del __ :-   
+        It is Destructor method, automatically called when an object is deleted (or goes out of scope)
+    
+    - __ len __ :-   
+        It define the behaviour of built-in function len() for custom object
+    
+    - __ call __ :-  
+        It means make object behaviour like a function
+    
+    - __ eq __ :-   
+        It define the behaviour of equality operator (==) for objects of a class
+    
+    - __ lt __ :-   
+        It define the behaviour of less than operator (<)
+    
+    - __ gt __ :-   
+        It define the behaviour of less than operator (<)
+    
+    - __ getitem __ :-  
+        It define assign value using Indexing operator [ ]
+    
+    - __ setitem __ :-   
+        It define the behaviour of less than operator (<)
+    
+    - __ delitem __ :-   
+        It define the behaviour when use the del keyword with indexing
+    
+    - __ enter __ :-   
+        It defines what happens when you enter a with block
+    
+    - __ exit __ :-   
+        It defines what happens when you exit a with block
+
+
+
