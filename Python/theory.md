@@ -475,4 +475,13 @@ It is defined with class keyword
         It is a special method that converts methods into read only attributes. It allows getter, setter, deleter for attributes
 
 
+- Types of Variables :-
+    - Instance Variable :-  
+        Belong to each object. Declared using self inside __init__ or other instance methods. Each object gets its own copy.
+    
+    - Class Variable :-  
+        Declared inside class but outside methods. Shared by all objects of that class. Accessed using Class.var or self.var.
+    
+    - Global Variable :-  
+        Declared outside all classes/functions. Accessible everywhere unless shadowed by a local variable. Can be modified inside a function with global keyword
 
