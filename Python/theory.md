@@ -485,3 +485,12 @@ It is defined with class keyword
     - Global Variable :-  
         Declared outside all classes/functions. Accessible everywhere unless shadowed by a local variable. Can be modified inside a function with global keyword
 
+
+
+## What is object
+
+It is the instance of a class that represents a real-world entity.
+It is a collection of data and behaviour defined by its class
+
+- Self Parameter :-   
+
