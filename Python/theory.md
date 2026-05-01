@@ -493,4 +493,6 @@ It is the instance of a class that represents a real-world entity.
 It is a collection of data and behaviour defined by its class
 
 - Self Parameter :-   
+    It is a reference to the current instance of the class. It allows us to access the attributes and methods of the object
+
 
