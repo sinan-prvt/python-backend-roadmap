@@ -582,3 +582,23 @@ It allows us to create, read, write, and modify files stored on the system.
 We use the built-in open() function to work with files.
 
 - Modes :- 
+    - r :- Read (default). A file must exist.
+    
+    - w :- Write. Creates a new file or overwrites if it exists.
+    
+    - a :- Append, Add data at end of file
+    
+    - x :- Create, Creates file but gives error if file already exists
+    
+    - t :- Text mode (default)
+    
+    - b :- binary mode (image, video, etc)
+    
+    - r+ :- Read + Write
+    
+    - w+ :- Write + Read (overwrite)
+    
+    - a+ :- Append + Read
+
+
+
