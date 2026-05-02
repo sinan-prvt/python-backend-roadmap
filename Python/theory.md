@@ -621,3 +621,12 @@ map() returns an iterator, not a list.
 
 
 
+## What is reduce()
+
+It is a function that applies cumulatively to items in an iterable to produce a single value.
+In simple take many values and compine and get one result.
+
+- Syntax :-   
+    from functools import reduce 
+    reduce(function, iterable)
+
