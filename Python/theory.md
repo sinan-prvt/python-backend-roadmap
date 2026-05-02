@@ -569,3 +569,8 @@ It is a object that allows to traverse through a collection of element one at a 
     It returns the next element from the collection. Raises StopIteration when no items are left
 
 
+
+## What is Generator
+
+It is a Function that produce values one at a time using with function and yield keyword instead of returning everthing at once 
+
