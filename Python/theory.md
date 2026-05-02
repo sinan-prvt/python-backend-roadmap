@@ -602,3 +602,10 @@ We use the built-in open() function to work with files.
 
 
 
+## What is filter()
+
+It is a function that select a collection of element based on a condition.
+
+- Syntax :-  
+    filter(function, iterable)  
+
