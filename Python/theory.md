@@ -609,3 +609,15 @@ It is a function that select a collection of element based on a condition.
 - Syntax :-  
     filter(function, iterable)  
 
+
+
+## What is map()
+
+It is a function that apply a function to every items in a collection.
+map() returns an iterator, not a list.
+
+- Syntax :-   
+    map(function, iterable1, iterable2, ....)
+
+
+
