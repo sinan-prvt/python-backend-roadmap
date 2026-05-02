@@ -558,3 +558,13 @@ It is a special Method in Python with Double UnderScore(__) in start and end of 
 
 
 
+## What is Iterator
+
+It is a object that allows to traverse through a collection of element one at a time.
+
+- __ iter __() :-   
+    It returns the iterator object itself
+
+- __ next __() :-  
+    It returns the next element from the collection. Raises StopIteration when no items are left
+
