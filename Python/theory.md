@@ -642,3 +642,13 @@ In simple take multiple list and pait their elements
 
 
 
+## What is enumerate()
+
+It is a function that adds index to an iterable.
+It means it get both index and value while looping
+
+- Syntax :-    
+    enumerate(iterable, start=0)
+
+
+
