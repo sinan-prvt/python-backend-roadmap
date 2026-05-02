@@ -568,3 +568,4 @@ It is a object that allows to traverse through a collection of element one at a 
 - __ next __() :-  
     It returns the next element from the collection. Raises StopIteration when no items are left
 
+
