@@ -630,3 +630,15 @@ In simple take many values and compine and get one result.
     from functools import reduce 
     reduce(function, iterable)
 
+
+
+## What is zip()
+
+It is a function that combaines multiple iterables in element-wise.
+In simple take multiple list and pait their elements
+
+- Syntax :-   
+    zip(iterable1, iterable2, ....)
+
+
+
