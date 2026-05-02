@@ -574,3 +574,11 @@ It is a object that allows to traverse through a collection of element one at a 
 
 It is a Function that produce values one at a time using with function and yield keyword instead of returning everthing at once 
 
+
+
+## What is File Handling
+
+It allows us to create, read, write, and modify files stored on the system. 
+We use the built-in open() function to work with files.
+
+- Modes :- 
