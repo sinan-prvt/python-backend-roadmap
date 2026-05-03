@@ -656,3 +656,5 @@ It means it get both index and value while looping
 
 It is a copy of the actual value passed to the function.
 It changes made to the inside the function do not affect the original variable of outside the function.
+
+
