@@ -659,8 +659,10 @@ It changes made to the inside the function do not affect the original variable o
 
 
 
+## What is Pass-by-reference
 
-
+It means the function receives a reference to the original object, not a copy.
+Changes made inside the function affect the original variable.
 
 
 
