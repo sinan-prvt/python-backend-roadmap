@@ -672,4 +672,9 @@ It is dynamically modifying or extending a class, module, or object at runtime w
 
 
 
+## What is Global Interpreter Lock (GIL)
+
+It is a mutex in CPython that ensures only one thread executes Python bytecode at a time within a single process.
+
+
 
