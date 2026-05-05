@@ -666,7 +666,9 @@ Changes made inside the function affect the original variable.
 
 
 
+## What is Monkey Patching
 
+It is dynamically modifying or extending a class, module, or object at runtime without changing its original source code.
 
 
 
