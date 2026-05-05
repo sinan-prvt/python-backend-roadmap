@@ -678,3 +678,8 @@ It is a mutex in CPython that ensures only one thread executes Python bytecode a
 
 
 
+## What is Multithreading
+
+It is a technique in which running multiple tasks (threads) inside a single process, sharing the same memory space. 
+
+
