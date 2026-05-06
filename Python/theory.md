@@ -683,3 +683,9 @@ It is a mutex in CPython that ensures only one thread executes Python bytecode a
 It is a technique in which running multiple tasks (threads) inside a single process, sharing the same memory space. 
 
 
+
+## What is Multiprocessing
+
+It is a technique in which multiple processes run concurrently, each with its own memory space, allowing true parallel execution on multiple CPU cores
+
+
