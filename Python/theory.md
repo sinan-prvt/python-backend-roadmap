@@ -703,3 +703,30 @@ It is the process of converting a byte stream into a python object.
 It is the reverse process of pickling.
 
 
+
+## What is OOPS
+
+It is Object Oriented Programming.
+It organizes code into objects and classes which combine data and functions.
+
+- Pillars of OOPS
+    - Inheritance :-   
+        It means a child class can reuse attributes and methods from the parent class 
+
+        - Types of Inheritance :-   
+            - Single Inheritance :-    
+                A child class inherits from a single parent class.
+
+            - Multiple Inheritance :-   
+                A child class inherits from two or more parent class.
+
+            - Multilevel Inheritance :-    
+                A child class inherits from a parent class, and another class inherits from that child class
+
+            - Hierarchical Inheritance :-    
+                Multiple child class inherits form a parent class
+
+            - Hybrid Inheritance :-    
+                A combination of two or more types of inheritance.
+
+                
