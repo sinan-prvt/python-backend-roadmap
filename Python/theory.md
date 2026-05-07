@@ -751,4 +751,21 @@ It organizes code into objects and classes which combine data and functions.
                     It means python dont care about the type of object, it only care about if the object has the method/behavior python want
 
 
+    - Encapsulation
+        It is bundling of data and methods together while restricting direct access to some data security and control.
+
+        - Types of Encapsulation :- 
+            - Public Encapsulation :-    
+                Variables and Methods of a class are accessible from anywhere.
+                Data Fully visible for everyone. No restricting on reading, accessing, and modifying  (obj.data)
+
+            - Private Encapsulation :-    
+                Variables and Methods are restricted to the class itself only (obj.data)
+
+            - Protected Encapsulation :-    
+                Variables and Methods of a class intended to be accessed only within the class and its subclasses. (obj.__data)
+
+        - Name Mangled :-    
+            It is the process in python that automatically changes the name of private variables (those starting with __ )
+
 
