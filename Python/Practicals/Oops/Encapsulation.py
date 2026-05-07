@@ -58,13 +58,15 @@
 
 ## ------------------ Private Encapsulation
 
-class Bank:
+# class Bank:
 
-    def __init__(self):
-        self.__balance = 40
+#     def __init__(self):
+#         self.__balance = 40
     
-    def get_balance(self):
-        return self.__balance
+#     def get_balance(self):
+#         return self.__balance
     
-b = Bank()
-print(b.get_balance())
+# b = Bank()
+# print(b.get_balance())
+
+
