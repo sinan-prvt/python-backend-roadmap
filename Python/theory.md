@@ -769,3 +769,20 @@ It organizes code into objects and classes which combine data and functions.
             It is the process in python that automatically changes the name of private variables (those starting with __ )
 
 
+    - Data Abstraction
+        It is the proccess of hiding implementation details and showing only the essetial features of an object to the users
+
+        - Components of Abstraction :- 
+            - Abstract class :-   
+                It is a Class that cannot be instantiated directly and is meant to be inherited by other classes. It is implemented using the abc module.
+
+            - Abstract method :-   
+                Methods declared in an abstract class, but without implementation. Subclasses must implement them.
+
+            - Concrete class :-    
+                Classes that implement abstract methods. Can be instantiated normally.
+
+            - Data Hiding :-   
+                Helps abstraction by restricting access using private/protected variables.
+
+
