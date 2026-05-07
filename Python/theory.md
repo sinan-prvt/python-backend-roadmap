@@ -689,3 +689,17 @@ It is a technique in which running multiple tasks (threads) inside a single proc
 It is a technique in which multiple processes run concurrently, each with its own memory space, allowing true parallel execution on multiple CPU cores
 
 
+
+
+## What is Pickling
+
+It is the process of converting a python object into a byte stream so that it can be saved to a file or transferred over a network.
+
+
+
+## What is Unpickiling
+
+It is the process of converting a byte stream into a python object.
+It is the reverse process of pickling.
+
+
