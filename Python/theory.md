@@ -729,4 +729,26 @@ It organizes code into objects and classes which combine data and functions.
             - Hybrid Inheritance :-    
                 A combination of two or more types of inheritance.
 
-                
+
+    - Polymorphism
+        It means it allows to have same name but behave differntly based on the object context
+
+        - Types of Polymorphism :-
+            - Compile-Time Polymorphism :-   
+                It occurs when methods/operators has multiple forms, and the form to be used is determined at compile-time not run-time
+
+                - Method Overloading :-   
+                    It has multiple functions/methods with the same name but differnt parameter.
+                    It supported in C, C++, Java, etc... not in python because python is dynamic typed.
+
+            - Run-Time Polymorphism
+                It occurs when the methods that is executed is determined at runtime
+
+                - Method Overriding :-   
+                    It occurs when a child class defined a method with the same name as a method in Parent class
+
+                - Built-in / Duck typing
+                    It means python dont care about the type of object, it only care about if the object has the method/behavior python want
+
+
+
