@@ -786,3 +786,54 @@ It organizes code into objects and classes which combine data and functions.
                 Helps abstraction by restricting access using private/protected variables.
 
 
+
+
+
+- SOLID Principles
+- Dependency Injection
+- Design Patterns
+- Repository Pattern
+- Service Layer Pattern
+- Factory Pattern
+- Singleton
+- Strategy Pattern
+- Adapter Pattern
+- identity vs equality
+- __slots__
+- descriptors
+- callable objects
+- enums
+- namedtuple
+- collections module
+- heapq
+- deque
+- defaultdict
+- OrderedDict
+- Counter
+- blocking vs non-blocking
+- asyncio
+- event loop
+- coroutines
+- aiohttp
+- exception chaining
+- logging module
+- structured logging
+- retry strategies
+- graceful failure
+- circuit breaker concepts
+- unittest
+- pytest
+- mocking
+- patching
+- fixtures
+- integration testing
+- API testing
+- test isolation
+- coverage
+- dependency mocking
+- JWT internals
+- idempotency
+
+
+
+
