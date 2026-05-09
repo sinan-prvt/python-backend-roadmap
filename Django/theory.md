@@ -65,3 +65,17 @@ Django user URL Dispatcher to map URL --> views
 
 
  
+## What is View Engine
+
+It is the part of the framework that handles user requests and returns responses.
+
+- Types of Views :- 
+    - Function Based View :-   
+        It define as a function. 
+        Accept a request object and return a responce object.
+
+    - Class Based View :-   
+        It define as a Class.
+        Django provides Generic Class-Based Views.
+
+
