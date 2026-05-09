@@ -55,3 +55,12 @@ It is auto-generated web-based interface that allows developers and site adminis
 It enables CRUD operations.
 
 
+
+## What is URL Routing
+
+It means mapping the URL to a specific view function.
+It is the system that tell Django to which view to call when a user click a particular url.
+Django user URL Dispatcher to map URL --> views
+
+
+
