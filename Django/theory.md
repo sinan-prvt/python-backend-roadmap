@@ -44,3 +44,7 @@ It similar like MVC but slightly diffrent.
     It combines static HTML with dynamic data from the view
 
 
+## What is Virtual Environment
+
+It is a isolated python environment for the project that keeps dependencies separate from other projects.
+
