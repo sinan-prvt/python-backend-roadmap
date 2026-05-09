@@ -49,3 +49,9 @@ It similar like MVC but slightly diffrent.
 It is a isolated python environment for the project that keeps dependencies separate from other projects.
 
 
+## What is Django Admin
+
+It is auto-generated web-based interface that allows developers and site administrators to manage database content without writing any code.
+It enables CRUD operations.
+
+
