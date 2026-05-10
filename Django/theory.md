@@ -79,3 +79,11 @@ It is the part of the framework that handles user requests and returns responses
         Django provides Generic Class-Based Views.
 
 
+
+
+
+
+
+
+
+
