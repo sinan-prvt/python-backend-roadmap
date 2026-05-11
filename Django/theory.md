@@ -160,6 +160,10 @@ Django uses a special system called Django Template Language (DTL).
 
 
 
+## What is Template Inheritance
+
+It allows you to reuse a common structure (base.html) across multiple pages using {% extends %}.
+
 
 
 
