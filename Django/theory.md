@@ -170,3 +170,12 @@ It allows you to reuse a common structure (base.html) across multiple pages usin
 
 It means {% block content %} ... {% endblock %} defines a placeholder section in the base template where child templates can inject their content.
 
+
+
+
+## What is Include Tag
+
+It means reuse smaller parts like navbars or footers.
+
+
+
