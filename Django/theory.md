@@ -179,3 +179,8 @@ It means reuse smaller parts like navbars or footers.
 
 
 
+
+## What is Static Files
+
+Static files (CSS, JS, images) are used for front-end styling.
+Static files are files that don’t change dynamically
