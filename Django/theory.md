@@ -166,5 +166,7 @@ It allows you to reuse a common structure (base.html) across multiple pages usin
 
 
 
+## What is Block Content
 
+It means {% block content %} ... {% endblock %} defines a placeholder section in the base template where child templates can inject their content.
 
