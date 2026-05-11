@@ -133,6 +133,33 @@ model is a Python class. Django convert it into a database table.
 
 
 
+## What is Template
+
+Templates define how data is presented (UI).
+Django Templates use Django Template Language (DTL) with {% %} and {{ }}.
+A template is an HTML file that contains static parts (normal HTML) and dynamic placeholders where Django will insert data. 
+Django uses a special system called Django Template Language (DTL).
+
+
+- Key Concept :- 
+    - Dynamic Variable :-   
+        Syntax : {{ variable_name }}
+
+    - Template Tags	:-    
+        Logic Operations, Loops, Conditions, template inheritance
+
+    - Filters :-    
+        Modify Data Output
+
+        - Common Filters :-     
+            - upper :- Uppercase
+            - lower	:- Lowercase
+            - length :- Count
+            - date :- Format date
+            - truncatechars	:- Shorten text
+
+
+
 
 
 
