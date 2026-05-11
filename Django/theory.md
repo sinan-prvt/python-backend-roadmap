@@ -81,6 +81,56 @@ It is the part of the framework that handles user requests and returns responses
 
 
 
+## What is Models
+
+It defines the structure of our database.
+model is a Python class. Django convert it into a database table.
+
+- Common Fields :- 
+    - CharField :- Short text (requires max_length)
+    - TextField :- Large text
+    - IntegerField :- Whole numbers
+    - PositiveIntegerField :- Only positive integers
+    - BigIntegerField :- Large integers
+    - FloatField :- Floating point numbers (approximate)
+    - DecimalField :- Fixed-precision decimal (exact)
+    - BooleanField :- True/False
+    - DateField :- Date only
+    - TimeField :- Time only
+    - DateTimeField :- Date + Time
+    - DurationField :- Time duration
+    - EmailField :- Stores & validates email
+    - URLField :- Stores URLs
+    - SlugField :- SEO-friendly identifier
+    - UUIDField :- Universally unique identifier
+    - FileField :- Stores file uploads
+    - ImageField :- Stores image uploads
+    - BinaryField :- Stores binary data
+    - AutoField :- Auto-increment integer (primary key)
+    - BigAutoField :- Auto-increment big integer
+    - ForeignKey :- Many-to-One relation
+    - OneToOneField :- One-to-One relation
+    - ManyToManyField :- Many-to-Many relation
+
+
+- Types of Models :- 
+    - Normal Model :-       
+        Each class creates it's own table in the database.
+
+    - Abstract Model :-     
+        It is Used for code reuse.
+        Don't create their own database.
+        Provide common fields that child model inherits.
+
+    - Proxy Model :- 
+        It Don't create new table.
+        It used for change behaviour of an existing model without duplicating the table.
+
+    - Multi-Table Inheritance Model :-      
+        It means each models gets its own table, but Djangolinks them together with OneToOneField.
+
+
+
 
 
 
