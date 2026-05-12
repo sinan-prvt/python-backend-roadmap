@@ -184,3 +184,5 @@ It means reuse smaller parts like navbars or footers.
 
 Static files (CSS, JS, images) are used for front-end styling.
 Static files are files that don’t change dynamically
+
+
