@@ -224,3 +224,106 @@
 #         letters[ch] = 1
     
 # print(letters)
+
+
+
+
+
+# ============================== Count words in sentence
+
+# n = "Hello, World! Hello everyone."
+
+# words = n.split()
+# freq = {}
+
+# for ch in words:
+#     freq[ch] = freq.get(ch, 0) + 1
+
+# print(freq)
+
+
+
+
+
+# ============================== convert list into dict with even and odd
+
+# nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# res = {"even": [], "odd": []}
+
+# for ch in nums:
+#     if ch % 2 == 0:
+#         res["even"].append(ch)
+#     else:
+#         res["odd"].append(ch)
+    
+# print(res)
+
+
+
+
+
+# ============================== Palindrome Check
+
+# n = "madam"
+
+# if n == n[::-1]:
+#     print("Palindrome")
+# else:
+#     print("Not a palindrome")
+
+
+
+
+
+# ============================== Factorial 
+
+# num = 5
+# fac = 1
+
+# for i in range(1, num+1):
+#     fac *= i
+
+# print(fac)
+
+
+
+
+
+# ============================== Fibonacci Sequence
+
+# a, b = 0, 1
+
+# for i in range(10):
+#     print(a)
+
+#     a, b = b, a + b
+
+
+
+
+# ============================== Count Digits in a Number
+
+# num = 12345
+
+# count = 0
+
+# while num > 0:
+#     count += 1
+#     num //= 10
+
+# print(count)
+
+
+
+
+
+# ============================== Reverse Word in a Sentence
+
+s = "Hello, World!"
+
+word = s.split()
+
+rev = " ".join(word[::-1])
+
+print(rev)
