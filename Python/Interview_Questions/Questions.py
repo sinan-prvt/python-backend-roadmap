@@ -320,10 +320,59 @@
 
 # ============================== Reverse Word in a Sentence
 
-s = "Hello, World!"
+# s = "Hello, World!"
 
-word = s.split()
+# word = s.split()
 
-rev = " ".join(word[::-1])
+# rev = " ".join(word[::-1])
 
-print(rev)
+# print(rev)
+
+
+
+
+
+# ============================== Anagram Check
+
+# s1 = "listen"
+# s2 = "silent"
+
+# if sorted(s1) == sorted(s2):
+#     print("Anagrams")
+# else:
+#     print("Not Anagrams")
+
+
+
+
+
+
+# ============================== Multiplication Table
+
+# num = 5
+
+# for i in range(1, 11):
+#     print(f"{num} x {i} = {num * i}")
+
+
+
+
+
+# ============================== Armstrong Number Check
+
+# num = 153
+
+# digit = [int(d) for d in str(num)]
+
+# total = sum(d ** 3 for d in digit)
+
+# if total == num:
+#     print("Armstrong Number")
+# else:
+#     print("Not an Armstrong Number")
+
+
+
+
+
+
