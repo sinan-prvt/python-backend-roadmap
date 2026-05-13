@@ -376,3 +376,88 @@
 
 
 
+# =============================== Count Even and Odd
+
+# nums = [1, 2, 3, 4, 5, 6]
+
+# even = 0
+# odd = 0
+
+# for n in nums:
+#     if n % 2 == 0:
+#         even += 1
+#     else:
+#         odd += 1
+
+# print(f"Even: {even}, Odd: {odd}")
+
+
+
+
+
+# =============================== Find Largest and Smallest
+
+# nums = [3, 1, 4, 1, 5, 9]
+
+# largest = nums[0]
+# smallest = nums[0]
+
+# for n in nums:
+#     if n > largest:
+#         largest = n
+#     if n < smallest:
+#         smallest = n
+
+# print(largest)
+# print(smallest)
+
+
+
+
+
+
+# =============================== Remove Duplicates
+
+# nums = [1,2,3,2,3,1,4,5,5,6,7,3]
+
+# unique = list(set(nums))
+
+# print(unique)
+
+
+
+
+
+
+# =============================== Find Second Largest Number
+
+# nums = [3, 1, 4, 1, 5, 9]
+
+# unique = list(set(nums))
+
+# unique.sort()
+
+# print(unique[-2])
+
+
+
+
+
+
+
+# =============================== Check if a Number is Prime
+
+# for num in range(1, 20):
+#     is_prime = True
+
+#     for i in range(2, int(num**0.5) + 1):
+#         if num % i == 0:
+#             is_prime = False
+#             break
+    
+#     if is_prime and num > 1:
+#         print(num)
+
+
+
+
