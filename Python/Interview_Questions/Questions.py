@@ -426,6 +426,20 @@
 
 
 
+## or
+
+
+# nums = [1,2,3,2,3,1,4,5,5,6,7,3]
+
+# result = []
+
+# for n in nums:
+#     if n not in result:
+#         result.append(n)
+    
+# print(result)
+
+
 
 
 
@@ -457,6 +471,48 @@
     
 #     if is_prime and num > 1:
 #         print(num)
+
+
+
+
+
+
+# =============================== Move Zeros To End
+
+# nums = [0, 1, 0, 3, 12]
+
+# result = 0
+
+# for n in nums:
+#     if n != 0:
+#         result.append(n)
+
+# while len(result) < len(nums):
+#     result.append(0)
+
+# print(result)
+
+
+
+
+
+
+# =============================== Move Negative Numbers Left
+
+# nums = [1, -2, 3, -4, 5, -6]
+
+# positive = []
+# negative = []
+
+# for n in nums:
+#     if n > 0:
+#         positive.append(n)
+#     else:
+#         negative.append(n)
+    
+# print(negative + positive)
+
+
 
 
 
