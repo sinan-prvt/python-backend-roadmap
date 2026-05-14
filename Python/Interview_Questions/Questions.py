@@ -89,6 +89,7 @@
 # for n in nums:
 #     if n % 2 == 0:
 #         result.append(evens[index])
+#         index += 1
 #     else:
 #         result.append(n)
 
