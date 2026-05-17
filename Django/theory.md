@@ -310,10 +310,25 @@ It alows to remember things like loggin-users, shopping carts, or temperary mess
 
 
 
-## What is Cokkies
+## What is Cookies
 
 It is small piece of data stored in user browers.
 It is used to remember user information between the request.
 It Unlike Session, It stired data in the client side and the server reads them on each request.
 
 
+
+
+## What is forms
+
+In Django forms is a Python class that represent an HTML form.
+It handles :- Rendering HTML form elements and Receiving user input and validating input and saving data to the database.
+
+- Types of forms :- 
+    - Forms :-      
+        It manual forms not directly linked to models
+    
+    - ModelForms :-     
+        It Automatically linked to Django models, easy CRUD operations.
+
+    
