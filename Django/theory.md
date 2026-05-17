@@ -300,3 +300,10 @@ It is a standardized action type sent with an HTTP request.
     Common in REST APIs
 
 
+
+## What is Session
+
+It is the way for store data for a specific users across multiple requests.
+It unlike cokkies, Session data stored in the server side and the user keep only the session-id.
+It alows to remember things like loggin-users, shopping carts, or temperary messages, etc...
+
