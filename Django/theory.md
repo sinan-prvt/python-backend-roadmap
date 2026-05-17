@@ -186,3 +186,71 @@ Static files (CSS, JS, images) are used for front-end styling.
 Static files are files that don’t change dynamically
 
 
+
+
+
+## What is Settings (settings.py)
+
+It is the configuration file in Django Project.
+It controls everthings like Database connections, middlewares, authentication, Installed apps, Security, templates, static files, etc...
+Without Settings the Django wont know how to run the project.
+
+- Default Files :- 
+    - INSTALLED_APPS :-     
+        List of all Django apps and third-party apps used in the project
+        
+        - Built-in apps :- 
+            - admin :- Admin panel
+            - auth :- Authentication
+            - session :- Session management
+            - messages :- Flash messages
+            - staticfiles :- Static file handling
+
+    - DATABASES :- 
+        Controls Database connection
+
+        - Common Database Engines :- 
+            - SQLite
+            - PostgreSQL 
+            - MySQL
+    
+    - MIDDLEWARE :- 
+        Act as middle man between user request and server response
+
+    - Templates :- 
+        Controls Django template system
+
+    - STATIC_URL :- 
+        Controls static file URL prefix
+
+    - SECRET_KEY :- 
+        Cryptographic key for sessions, passwords, CSRF protection, and tokens
+ 
+    - DEBUG :- 
+        Shows detailed error messages in development. False:Production mode(don’t expose internal errors)
+
+    - ALLOWED_HOSTS :- 
+        Defines which domains your Django site can serve.
+        Prevents Host Header attacks.
+
+    - LANGUAGE_CODE :- 
+        Controls default language.
+
+    - TIME_ZONE :- 
+        It Controls timezone
+
+    - USE_TZ :- 
+        Timezone-aware datetime support
+    
+    - ROOT_URLCONF :- 
+        Defines main URL router
+
+    - WSGI_APPLICATION :- 
+        Used for deployment
+
+    - ASGI_APPLICATION :- 
+        Modern async support
+
+    - AUTH_USER_MODEL :- 
+        Used for custom user model
+
