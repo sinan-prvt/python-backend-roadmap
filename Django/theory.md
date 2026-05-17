@@ -307,3 +307,13 @@ It is the way for store data for a specific users across multiple requests.
 It unlike cokkies, Session data stored in the server side and the user keep only the session-id.
 It alows to remember things like loggin-users, shopping carts, or temperary messages, etc...
 
+
+
+
+## What is Cokkies
+
+It is small piece of data stored in user browers.
+It is used to remember user information between the request.
+It Unlike Session, It stired data in the client side and the server reads them on each request.
+
+
