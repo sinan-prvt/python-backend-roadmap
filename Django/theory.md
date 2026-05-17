@@ -254,3 +254,23 @@ Without Settings the Django wont know how to run the project.
     - AUTH_USER_MODEL :- 
         Used for custom user model
 
+
+
+## What is Routing 
+
+It means mapping a url to a specific view function in app.
+
+
+## What is Dynamic Routing
+
+It means urls that accept variables/parameters instead of being fixed.
+
+- Path Converts :- 
+    - <int:pk> :- Interger Value
+    - <str:username> :- String Value
+    - <slug:slug> :- Slug for SEO friendly urls
+    - <uuid:uuid> :- UUID Value
+    - <path:path> :- Matches any path including /
+
+
+ 
