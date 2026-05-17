@@ -273,4 +273,30 @@ It means urls that accept variables/parameters instead of being fixed.
     - <path:path> :- Matches any path including /
 
 
+
+## What is HTTP Methods
+
+It is a standardized action type sent with an HTTP request.
  
+
+- GET :-    
+    Retrieve data from the server.
+    Read Only.
+
+- POST :-   
+    Send data to the server.
+    Used for creating new resourses or submitting forms.
+
+- PUT :-    
+    Updates the existing resources completely.
+    Typically used in REST APIs
+
+- PATCH :-      
+    Updates parts of resource
+    Often used in APIs for partial updates
+
+- DELETE :-         
+    Deletes an existing resource.
+    Common in REST APIs
+
+
