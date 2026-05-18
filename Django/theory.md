@@ -409,4 +409,16 @@ It is a messaging system that allows to different parts of an applications commu
 
 
 
+## What is Makemigrations
+
+It is a Django command that creates migration files based on changes in our models .
+These migration files are Python instructions that describe how to modify the database schema
+
+
+## What is migrate
+
+It is the Django command that applies migration files to the actual database.
+It looks at migration files (created by makemigrations) and runs the SQL commands needed to create or update tables.
+
+
 
