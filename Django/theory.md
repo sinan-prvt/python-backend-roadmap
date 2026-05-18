@@ -391,3 +391,22 @@ It means in Django uses ORM relationships to links models together.
 
 In Django it is the gateway between the models and the database.
 By default manager is object.
+
+
+
+## What is Signal
+
+It is a messaging system that allows to different parts of an applications communicates with each others when a certain event/action occurs.
+
+- Built-in Signals :- 
+    - pre_save :- Before save
+    - post_save	:- After save
+    - pre_delete :- Before delete
+    - post_delete :- After delete
+    - m2m_changed :- ManyToMany changes
+    - request_started :- Request starts
+    - request_finished :- Request ends
+
+
+
+
