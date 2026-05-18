@@ -387,3 +387,7 @@ It means in Django uses ORM relationships to links models together.
 
 
 
+## What is Manager
+
+In Django it is the gateway between the models and the database.
+By default manager is object.
