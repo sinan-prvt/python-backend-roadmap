@@ -351,4 +351,16 @@ It’s a Python class or function that processes:
 It stands for Web Server Gateway Interface
 It is a interface that define how a web server communicates with python web applications or frameworks.
 Synchronous: Handles one request at a time per worker.
-It used by Django by default in traditional deployment 
+It used by Django by default in traditional deployment (Gunicorn, uWSGI)
+
+
+
+
+## What is ASGI
+
+It stands for Asynchronous Server Gateway Interface.
+It is modern interface for asynchronous communication.
+It supports Websocket, long-polling, HTTP2, async views.
+Used for real-time apps (chat apps, notifications).
+
+
