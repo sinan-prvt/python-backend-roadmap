@@ -344,3 +344,11 @@ It’s a Python class or function that processes:
 	Response before sending back to the client
 
 
+
+
+## What is WSGI
+
+It stands for Web Server Gateway Interface
+It is a interface that define how a web server communicates with python web applications or frameworks.
+Synchronous: Handles one request at a time per worker.
+It used by Django by default in traditional deployment 
