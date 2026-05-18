@@ -332,3 +332,15 @@ It handles :- Rendering HTML form elements and Receiving user input and validati
         It Automatically linked to Django models, easy CRUD operations.
 
     
+
+
+## What is Middleware
+
+It act as a middle man between the user requets and response.
+It’s a lightweight, low-level plugin that processes requests before they reach the view and responses before they are sent to the client.
+
+It’s a Python class or function that processes:
+	Request before reaching the view
+	Response before sending back to the client
+
+
