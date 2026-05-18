@@ -435,3 +435,13 @@ It is a module or component within a project that performs a specific function (
 
 
 
+## What is Context
+
+It is a dictionary-like object that holds data we want to pass from our view(Python Code) to our template(HTML file)
+
+
+## What is Context Processor 
+
+It is a function that automatically adds common variables (like user info, site name, messages, etc.) to the context of all templates without having to pass them manually in every view.
+
+
