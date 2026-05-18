@@ -422,3 +422,16 @@ It looks at migration files (created by makemigrations) and runs the SQL command
 
 
 
+
+## What is Project
+
+It is the entire web application. 
+It contains all the configuration, settings, URLs, and multiple apps that work together to create a complete website
+
+
+## What is App
+
+It is a module or component within a project that performs a specific function (like handling users, blogs, carts, etc.).
+
+
+
