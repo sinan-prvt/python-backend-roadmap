@@ -364,3 +364,26 @@ It supports Websocket, long-polling, HTTP2, async views.
 Used for real-time apps (chat apps, notifications).
 
 
+
+
+
+## What is Relationships
+
+It means in Django uses ORM relationships to links models together.
+
+- Types of Relationships :- 
+    - OneToOneField :-      
+        One record in model A is related to exactly one record in Model B.
+        Eg :- Each patients has one medical record.
+
+    - OneToManyField :-     
+        One record in Model A is related to many records in Model B.
+        Eg :- One Doctor has many patients
+
+    - ManyToManyField :-        
+        Multiple records in Model A related to multiple records in Model B.
+        A patient can have many diseases, and a disease can affect many patients.
+
+
+
+
