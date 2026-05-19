@@ -128,10 +128,20 @@ Normally, filter and exclude only combine with AND, if we need OR logic , nested
 
 
 
-## What is annotate
+## What is Annotate
 
 It is used to add calculated value to each objects in Queryset.
 
 It performs counting, averaging, summing, calculations, grouping, aggregations per row/object.
+
+
+
+
+## What is Aggregate
+
+It is a queryset method that is used to perform calculation on a set of rows in our database and return a single summary value.
+
+It does not return multiple rows like filter() or all(). Instead it returns a dictionary with key and values being the computed result
+
 
 
