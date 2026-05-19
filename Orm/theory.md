@@ -143,5 +143,10 @@ It is a queryset method that is used to perform calculation on a set of rows in 
 
 It does not return multiple rows like filter() or all(). Instead it returns a dictionary with key and values being the computed result
 
-
+- Common Functions :-   
+    - Sum :- Total sum of a field
+    - Avg :- 	Average
+    - Max :- Maximum Value
+    - Min :- Minimum Value
+    - Count :- Number of Records
 
