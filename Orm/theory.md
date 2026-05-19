@@ -112,3 +112,18 @@ It is the special keyword that we use with filter, exclude, get methods to apply
 
 
 
+
+## What is Q Object
+
+It is used to built complex queries with OR, AND and NOT Conditions.
+
+Normally, filter and exclude only combine with AND, if we need OR logic , nested complex condition we use Q Object.
+
+
+- Conditions :- 
+    - OR Condition :- With "|"
+    - AND Condition :- With "&"
+    - NOT Condition :- With "~"
+
+
+
