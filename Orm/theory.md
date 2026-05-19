@@ -80,3 +80,35 @@ It easier to get data only we need by letting you filtering, sorting and organiz
         It is used to gets oldest row.
     
 
+
+
+## What is Query Lookups
+
+It is the special keyword that we use with filter, exclude, get methods to apply conditions on fields.
+
+- Categories and Essential lookups :- 
+    - exact :- Exact Match
+    - iexact :- Case Insensitive exact
+    - gt :- Grether than
+    - gte :- Grether than or equal to
+    - lt :- Less than
+    - lte :- Less than or equal to
+    - contains :- Case-sensitive text search
+    - icontains :- Case Insensitive text search
+    - startswith :- Check statswith
+    - istartwith :- Check case insensitive startwith
+    - endswith :- Check endswith
+    - iendswith :- Check case insensitive endswith
+    - in :- SQL in
+    - range :- between
+    - isnull :- Check is Null
+    - year :- Year lookup
+    - month :- Month lookup
+    - day :- Day lookup
+    - date :- date loopup
+    - joined_year :- date lookup (year/month/day)
+    - regax :- regex (DB-dependent)
+    - iregax :- Case insensitive regax
+
+
+
