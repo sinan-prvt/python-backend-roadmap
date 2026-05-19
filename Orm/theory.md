@@ -127,3 +127,11 @@ Normally, filter and exclude only combine with AND, if we need OR logic , nested
 
 
 
+
+## What is annotate
+
+It is used to add calculated value to each objects in Queryset.
+
+It performs counting, averaging, summing, calculations, grouping, aggregations per row/object.
+
+
