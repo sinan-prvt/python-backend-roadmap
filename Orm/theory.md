@@ -191,5 +191,54 @@ It helps to reuse common fields and create hierarchies in our database models
 
 
 
+## What is Meta Class
+
+It is an inner class inside our model that is used to configure model metadata.
+
+It tells Django how our model should behave in the database and the admin interface
+
+
+- Model Meta Option :- 
+    - abstract :-       
+        It makes a model abstract base class(no db table),used to share fields/behaviours. 
+
+    - app_label :-      
+        If a model is denied outside a applications in INSTALLED_APPS, it must declare which app it belongs to 
+
+    - verbose_name & verbose_name_plural :-         
+        It human readable names shown in admin,messages
+
+    - ordering :-       
+        It is Default ordering for the queryset.
+
+    - proxy :-      
+        If we add proxy = True a model which subclasses another model will be treated as a proxy model
+
+    - permissions :-        
+        Declare custom model permissions that are created during migrations and visible in admin.
+
+    - db_table :-       
+        Force the DB table name for the model
+
+    - get_latest_by :-      
+        Field name used by Model.objects.latest() / earliest() when we call  them without arguments
+
+    - indexes :-        
+        Add database indexes for faster queries.
+
+    - unique_together :-    
+        Enforcing multiple fields together must be unique.
+
+    - default_related_name :-       
+        Custom reverse relation name.
+
+    - constraints :-        
+        Custom reverse relation name.
+
+    - managed :-        
+        Controls whether Django manages the database table.
+
+
+
 
 
