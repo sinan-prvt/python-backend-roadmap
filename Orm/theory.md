@@ -150,3 +150,12 @@ It does not return multiple rows like filter() or all(). Instead it returns a di
     - Min :- Minimum Value
     - Count :- Number of Records
 
+
+
+## What is F Object
+
+It is a object that represent a model field value directly in the database.
+
+It allows to reference a field’s value directly in queries, so we can perform database-side operations instead of fetching the object into Python
+
+
