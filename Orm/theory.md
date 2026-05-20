@@ -159,3 +159,13 @@ It is a object that represent a model field value directly in the database.
 It allows to reference a field’s value directly in queries, so we can perform database-side operations instead of fetching the object into Python
 
 
+
+
+## What is Manager
+
+In Django it is the gateway between the models and the database.
+By default manager is object.
+
+
+
+
