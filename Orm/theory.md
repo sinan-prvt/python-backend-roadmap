@@ -169,3 +169,27 @@ By default manager is object.
 
 
 
+## What is Model Inheritance
+
+It allows to create a new model based on one or more existing models, resuing field and functionality.
+
+It helps to reuse common fields and create hierarchies in our database models
+
+- Types of Model Inheritance :- 
+    - Abstarct Base Classes :-      
+        Parent Model won’t create a database table; only child models will.
+        Its purpose is to share common fields and methods across models.
+    
+    - Multi-Table Inheritance :-      
+        Each model gets its own database table.
+        Django automatically creates a OneToOneField linking child to parent
+
+    - Proxy Models :-       
+        The child doesn't create a new table but allows to change behavior or add methods.
+        Its purpose is to modify Python behaviour without changing DB structure.
+
+
+
+
+
+
