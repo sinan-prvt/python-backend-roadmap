@@ -353,3 +353,24 @@ It is a queryset method that allows to update multiple model objects in the data
 
 
 
+
+
+## What is AbstractUser
+
+It is a built-in Django class that provides a fully functional User model, but allows to extend or customize it.
+
+It inherit from AbstractBaseUser and adds common user fields like ( username, first_name, last_name, email, is_staff, is_active, is_superuser, last_login, date_joined, password, plus related methods [ get_full_name(), get_short_name()]
+, etc)
+
+
+
+
+## What is AbstractBaseUser
+
+It is the lowest-level base class for creating a fully custom User model in Django.
+
+
+Unlike AbstractUser, it does not include fields like username, email, first_name, last_name, is_staff, etc… it only provides password, last_login, required methods like set_password(), check_password()
+
+
+
