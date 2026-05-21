@@ -278,4 +278,40 @@ It is a database object used to retreive, traverse and manipulate row returned b
 It like a pointer that moves throught rows returned by SQL query.
 
 
+- Types of Cursor :- 
+    - Implicit Cursors :-    
+        Creates automatically by the database when executing DML statements(INSERT, UPDATE, SELECT, DELETE).
+
+    - Explicit Cursors :-     
+        We declare and control in explicitly. 
+        Useful when you want fine-grained control over row-by-row processing.
+
+    - Scrollaable Cursors :-     
+        Allow moving forward and backward in the result set.
+        Example: FETCH PRIOR, FETCH FIRST, FETCH LAST, FETCH ABSOLUTE n.
+
+    - Static and Dynamic Cursors :-    
+        Static → Snapshot of data; changes in table after cursor open are not reflected.
+        
+        Dynamic → Reflects changes in the underlying table (insert/update/delete).
+
+
+
+- Cursor Methods :-     
+    - cursor.execute(sql, params) :- 
+        Executes SQL queries
+    
+    - cursor.executemany(sql, param_list) :- 
+        Runs the same SQL with multiple parameter sets
+    
+    - cursor.fetchone() :- 
+        Get one row
+    
+    - cursor.fetchall() :- 
+        Get all row
+    
+    - cursor.fetchmany(n) :- 
+        Get n row
+
+
 
