@@ -258,3 +258,14 @@ It is a queryset method used t optimize the database queries for multi-values re
 prefetch_related() fetches all related objects in a separate query and joins them in Python, reducing database hits.
 
 
+
+
+## What is raw() Method
+
+It is a raw sql query that allows to run directly in django and get model instance back.
+
+It acts like bridge between raw SQL and ORM models
+
+It’s part of Django’s QuerySet API.
+
+
