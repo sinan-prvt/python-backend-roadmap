@@ -269,3 +269,13 @@ It acts like bridge between raw SQL and ORM models
 It’s part of Django’s QuerySet API.
 
 
+
+
+## What is Cursor
+
+It is a database object used to retreive, traverse and manipulate row returned by a query one at a time.
+
+It like a pointer that moves throught rows returned by SQL query.
+
+
+
