@@ -336,3 +336,13 @@ Useful in class-based views (CBVs), settings, or anywhere the URL needs to be ev
 
 
 
+
+
+## What is bulk_create()
+
+It is a queryset method that is used to instert multiple model instance into the databse in a single query.
+
+Instead of creating objects one by one, bulk_create() sends all objects at once
+
+
+
