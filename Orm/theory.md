@@ -242,3 +242,10 @@ It tells Django how our model should behave in the database and the admin interf
 
 
 
+## What is select_related()
+
+It is a queryset method used to reduce database queries when fetching related object using ForeinKey and OneToOneField.
+
+select_related() uses SQL JOIN to fetch related objects in a single query.
+
+
