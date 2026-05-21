@@ -324,3 +324,15 @@ It is a shortcut fuction in django to send the user to another URL.
 It is often used after a form submission, login, logout, or any action that changes data.
 
 
+
+
+## What is reverse_lazy()
+
+It is a lazy version of reverse.
+
+It resolves a URL pattern name into an actual URL, but only when it’s needed.
+
+Useful in class-based views (CBVs), settings, or anywhere the URL needs to be evaluated later, not at import time.
+
+
+
