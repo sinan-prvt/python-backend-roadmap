@@ -346,3 +346,10 @@ Instead of creating objects one by one, bulk_create() sends all objects at once
 
 
 
+
+## What is bulk_update()
+
+It is a queryset method that allows to update multiple model objects in the database in a single query, instead of saving them one by one 
+
+
+
