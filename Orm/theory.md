@@ -315,3 +315,12 @@ It like a pointer that moves throught rows returned by SQL query.
 
 
 
+
+
+## What is redirect()
+
+It is a shortcut fuction in django to send the user to another URL.
+
+It is often used after a form submission, login, logout, or any action that changes data.
+
+
