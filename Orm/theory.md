@@ -249,3 +249,12 @@ It is a queryset method used to reduce database queries when fetching related ob
 select_related() uses SQL JOIN to fetch related objects in a single query.
 
 
+
+
+## What is prefetch_related()
+
+It is a queryset method used t optimize the database queries for multi-values relationships like ManyToManyField and Reverse ForeignKey.
+
+prefetch_related() fetches all related objects in a separate query and joins them in Python, reducing database hits.
+
+
