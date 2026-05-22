@@ -95,3 +95,17 @@ It Support SQL and NoSQL. It used cross platforms, and It is free and Open-sourc
 
 
 
+## What is Table
+
+It is a collection of data that organized into rows and columns inside a database.
+
+It is the physical structure we can see in the database.
+
+Each row represent a record and each column represent a field.
+
+    - Columns = fields/attributes (like name, age, salary).
+    - Rows = records/tuples (actual data entries).
+
+
+
+
