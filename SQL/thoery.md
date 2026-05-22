@@ -146,3 +146,37 @@ It is a attribute or set of attribute that used to uniquely identify a row in a 
         Any set of a column that can uniquely idenify a row.
 
     
+
+
+## What is Constraints
+
+It is rules applies on columns and tables to ensure valid and consistent data.
+
+Key are type of constraint.
+
+
+- Types of Constraints :-   
+    - NOT NULL :-       
+        It ensure a column cannot have NULL value
+
+    - UNIQUE :-     
+        It ensure all values in column are differnt
+        
+    - PRIMARY KEY :-        
+        It Uniquely identify each row in table.
+
+    - FOREIGN KEY :-        
+        A column in one table that refers to the primary key of another table.
+
+    - CHECK :-      
+        It ensure the values meet a condition
+
+    - DEFAULT :-        
+        It assigns a default value if none is provided.
+
+    - INDEX :-      
+        It like indexing in the book.
+        It helps to quickly find information without scanning the entire table.
+
+    
+
