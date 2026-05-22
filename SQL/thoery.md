@@ -115,3 +115,34 @@ Each row represent a record and each column represent a field.
 In relational database theory, a relation is a mathematical concept a set of rows that share same set of columns.
 
 
+
+
+## What is Key
+
+It is a attribute or set of attribute that used to uniquely identify a row in a table.
+
+- Types of Keys :-  
+    - Primary Key :-    
+        It Uniquely idetify each row in a table.
+        It cannot be NULL and Cannot Repeat
+
+    - Candidate Key :-      
+        A column or set of column that qulaify as primary key.
+        Only one choose as Primary Key
+
+    - Alternate Key :-      
+        Candidate key not chosen as Primary key.
+
+    - Unique Key :-         
+        Ensure all values in a column are unique but allow one NULL.
+
+    - Foreign Key :-    
+        A column in one table refers to the primary key of another table.
+
+    - Composite Key :-      
+        A primary key made up with multiple columns.
+
+    - Super Key :-      
+        Any set of a column that can uniquely idenify a row.
+
+    
