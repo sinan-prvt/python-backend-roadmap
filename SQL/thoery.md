@@ -109,3 +109,9 @@ Each row represent a record and each column represent a field.
 
 
 
+
+## What is Relation
+
+In relational database theory, a relation is a mathematical concept a set of rows that share same set of columns.
+
+
