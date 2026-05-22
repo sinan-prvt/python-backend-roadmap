@@ -56,3 +56,42 @@ It is a Software tool that allows as to create, store, organize and manage data 
 
 
 
+## What is PostgreSQL
+
+It is a Open-source, Powerful Object Relational Database Management System (ORDBMS).
+
+It stored data as tables and also support JSON and many powerful tools like MVIC, rich indexing, etc..
+
+It Support SQL and NoSQL. It used cross platforms, and It is free and Open-source.
+
+
+- Basic Postgres Workflow :-    
+    - Create a Database :-      
+        [ CREATE DATABASE name; ]
+    
+    - Connect to Database :-        
+        [ \c name; ]
+    
+    - Create a Table :-         
+        [ 
+            CREATE TABLE name (
+                id SERIAL PRIMARY KEY,
+                name VARCHAR(25),
+                age INT,
+                department VARCHAR(50)
+            );
+        ]
+
+    - Insert Data :-        
+        [
+            INSERT INTO name(name, age, department)
+            VALUE ('Sinan', 19, 'IT'),
+                  ('Mohamed', 34, 'HR');
+        ]
+
+    - Query Data :-     
+        [ SELECT * FROM name; ]
+
+
+
+
