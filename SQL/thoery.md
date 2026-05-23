@@ -228,3 +228,44 @@ It is a keyword or set of keywords that performs a specific task in the query.
 
 
 
+
+
+## What is Operators
+
+It are symbols or keywords used to perform operations on values, columns, or expressions.
+
+
+- Types of Operators :-     
+    - Arithmetic Operators :-       
+        It used for math calculation on numeric data
+    
+    - Comparison Operators :-   
+        It compare values and return TRUE/FALSE
+
+    - Logical Operators :-      
+        It combines multiple conditions
+    
+    - Bitwise Operators :-      
+        It work on binary representation of numbers
+
+    - Range Operators (Between) :-      
+        It used to filter values within a range (inclusive)
+
+    - Set Operators (IN / NOT IN) :-        
+        Check if a value exists in a list or subquery 
+    
+    - Pattern Matching Operators (LIKE , ILIKE, Wildcards) :-       
+        It used to search string patterns
+
+    - NULL Operators (IS NULL / IS NOT NULL) :-         
+        It used for checking missing values
+    
+    - Existence Operators( EXISTS / NOT EXISTS) :-      
+        Checks if a subquery returns results
+
+    - Concatenation Operators :-    
+        It is used to join strings together
+
+
+
+
