@@ -269,3 +269,31 @@ It are symbols or keywords used to perform operations on values, columns, or exp
 
 
 
+
+## What is Aggregate Function
+
+It is used to perform calculations on set of values and returned a single summarized value.
+
+
+- Common Aggregate Functions :-     
+    - COUNT() :-        
+        It used to count number of rows.
+        Can count specific columns or all rows.
+    
+    - SUM() :-      
+        It is used to adds up all numeric values.
+
+    - AVG() :-      
+        It is used to calculate average of numeric values.
+    
+    - MIN() :-      
+        It is used to find minimum value.
+
+    - MAX():-       
+        It is used to find maximum value.
+
+    - STRING_AGG() / GROUP_CONCAT() :-          
+        It is used to combines multiple values into single.
+
+
+
