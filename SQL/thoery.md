@@ -180,3 +180,51 @@ Key are type of constraint.
 
     
 
+
+## What is SQL Clauses
+
+It is a keyword or set of keywords that performs a specific task in the query.
+
+- Common Clauses :- 
+    - SELECT :-     
+        It Specifies which columns we want to retrieve from the table.
+        It is mandatory in almost all queries.
+    
+    - FROM :-       
+        It specifies the tables from which data retrieve in a SQL query.
+
+    - WHERE :-      
+        It used to filter rows and returned by query based on condition.
+    
+    - ORDER BY :-       
+        It used to sort the rows and returned by query based on one or more columns.
+    
+    - GROUP BY :-       
+        It used to group the rows that have same values in the specified columns into summary rows.
+    
+    - HAVING :-     
+        It used to filter groups of rows after aggregation.
+        It used when GROUP BY is used.
+    
+    - DISTINCT :-       
+        It is used to remove duplicates rows.
+    
+    - LIMIT / TOP :-        
+        It is used to restrict the number of rows returned by the query.
+        - LIMIT :- Used in PostgreSQL, MySQL, SQLite.
+        - TOP :- Used in SQL Server, MS Access.
+    
+    - JOIN :-       
+        It is used to combines rows from two or more tables based on related columns.
+    
+    - IN :-         
+        It is used to check if the value exist in the list.
+    
+    - BETWEEN :-        
+        It is used to check if the value is within in range.
+
+    - LIKE :-       
+        It is used to pattern matching with % and _ 
+
+
+
