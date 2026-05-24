@@ -298,45 +298,5 @@ It is used to perform calculations on set of values and returned a single summar
 
 
 
-dad
-sd
-sad
-sa
-ds
-adsa
-d
-das
-das
-das
-dasd
-sd
-asd
-asdas
-das
-da
-dsa
-ds
-dasd
-asd
-d
-sads
-adas
-das
-dsad
-SAd
-sad
-as
-adsa
-dsa
-dsad
-d
-ad
-sadas
-dsa
-dsa
-dasd
-sa
-dad
-as
-da
-d
+
+
