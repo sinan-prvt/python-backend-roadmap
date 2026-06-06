@@ -14,23 +14,3 @@ It supports serialization, validation, authentication, permissions, filtering, p
 
 
 
-sdsa
-ds
-ad
-da
-sd
-sad
-sad
-sa
-dsdsa
-das
-dasdsa
-dasd
-sa
-das
-da
-das
-da
-das
-as
-dsa
