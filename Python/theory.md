@@ -5,23 +5,6 @@
 
 Python is a High Level, Interpreted, Object Oriented Programming Language with easy syntax, dynamic typing and a large library used for web development, data science, AI, automation, and more.
 
-ds
-ds
-ds
-ds
-ds
-ds
-ds
-ds
-ds
-ds
-ds
-ds
-d
-s
-sd
-d
-d
 
 ## What is Variables
 
