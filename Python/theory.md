@@ -146,6 +146,33 @@ It allows mixed data types
     - min() :- Smallest Number
     - max() :- Largest Number
     - sum() :- Sum of Number
+d
+sad
+sds
+dsa
+ds
+ds
+ds
+dsa
+das
+d
+das
+ds
+das
+dd
+sd
+sad
+sa
+d
+asd
+asd
+asd
+sad
+asd
+sad
+asdas
+dsa
+d
 
 
 ## What is Tuple
