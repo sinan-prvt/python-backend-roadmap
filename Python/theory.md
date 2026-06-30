@@ -166,7 +166,7 @@ It allows Mixed Data Types.
 
 ## What is Dictionary
 
-It is Mutable, Unordered and Indexed collection of key-value pairs defined with {}.
+It is Mutable, Ordered and Indexed collection of key-value pairs defined with {}.
 It not allowed duplicate values.
 
 - Methods :-
