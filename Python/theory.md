@@ -188,10 +188,10 @@ It not allowed duplicate values.
 
 
 
-## What is set
+## What is Set
 
 It is Mutable, Unordered Collection of Unique Items defined with Curly Braces {}.
-It not aloows duplicate values
+It not allows duplicate values
 
 - Methods :- 
     - add() :- Add a Single Item
