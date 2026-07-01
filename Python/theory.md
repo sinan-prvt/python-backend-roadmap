@@ -704,6 +704,64 @@ It is the reverse process of pickling.
 
 
 
+ds
+
+s
+
+
+s
+
+
+ds
+ds
+s
+
+s
+s
+s
+d
+sd
+s
+sd
+s
+
+d
+
+ds
+s
+s
+
+s
+s
+ds
+d
+sd
+sds
+
+sds
+s
+ds
+d
+sd
+s
+ds
+d
+sds
+ds
+dsd
+s
+ds
+ds
+ds
+ds
+ds
+ds
+d
+d
+
+
+
+
 ## What is OOPS
 
 It is Object Oriented Programming.
